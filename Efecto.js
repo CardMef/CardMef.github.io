@@ -17,3 +17,8 @@ fillData = function(dataUsuario){
     document.getElementById("EMAIL").innerHTML = dataUsuario.email;
 }
 
+function mailTo() {
+    window.location.href =  "mailTo"+document.getElementById("EMAIL").innerHTML;
+}
+
+
